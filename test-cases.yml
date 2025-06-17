@@ -10,12 +10,12 @@
     - email = testuser@example.com 
     - password = admin123.
   steps:
-    * Открыть страницу регистрации
-    * Ввести "testuser2" в поле Nickname
-    * Ввести "testuser@example.com" в поле Email
-    * Ввести "admin123." в поле Password
-    * Повторно ввести "admin123." в поле Password confirmation
-    * Нажать кнопку Submit
+    - Открыть страницу регистрации
+    - Ввести "testuser2" в поле Nickname
+    - Ввести "testuser@example.com" в поле Email
+    - Ввести "admin123." в поле Password
+    - Повторно ввести "admin123." в поле Password confirmation
+    - Нажать кнопку Submit
   expected-result: |
     - Пользователь зарегистрирован и перенаправлен на главную страницу сайта
     - В базе данных появляется новая запись с указанной почтой и никнеймом
