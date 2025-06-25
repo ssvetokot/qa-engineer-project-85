@@ -124,8 +124,8 @@
   requirement: |
     Пользователь должен иметь возможность запросить смену пароля через email
   prerequisites:
-    - Пользователь не авторизован
-    - Email testuser@example.com зарегистрирован в системе
+    Пользователь не авторизован
+    Email testuser@example.com зарегистрирован в системе
   test-data: |
     Email = testuser@example.com
   steps:
